@@ -1,0 +1,29 @@
+# Data (do not commit the dataset)
+data/v_2/
+data/*.zip
+*.tif
+*.tiff
+
+# Kaggle credentials — NEVER commit
+kaggle.json
+.kaggle/
+
+# Model checkpoints / large artifacts
+*.pt
+*.pth
+*.ckpt
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
